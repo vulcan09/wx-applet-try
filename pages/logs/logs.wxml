@@ -1,0 +1,10 @@
+<!--logs.wxml-->
+<view class="box">
+  <text class="wenzi">~You are the loveliest person in the my heart~</text>
+</view>
+<view class="box1">
+  <camera device-position="front" flash="off" binderror="error" class="camera1" style="width: 100%; height: 300px;"></camera>
+  <button type="default" style="width:80%; margin-top:15px; margin-bottom:15px;" bindtap="takePhoto">拍照</button>
+  <view></view>
+  <image mode="widthFix" src="{{src}}" style="width:100%; height:100%;"></image>
+</view>

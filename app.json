@@ -1,0 +1,33 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#000",
+    "selectedColor": "#93b5cf",
+    "backgroundColor": "#fff",
+    "position": "bottom",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "Home",
+        "iconPath": "./img/home.png",
+        "selectedIconPath": "./img/home (1).png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "Surprise",
+        "iconPath": "./img/miao.png",
+        "selectedIconPath": "./img/miao (1).png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}
