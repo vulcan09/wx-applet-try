@@ -34,6 +34,24 @@ App({
     })
   },
   globalData: {
-    userInfo: null
+    userInfo: null,
+    types: [
+      {type: 1,text: '新歌',title: '新歌榜'}, 
+      {type: 16,text: '流行',title: '流行音乐'},
+      {type: 21,text: '欧美',title: '欧美金曲'}, 
+      {type: 25,text: '神曲',title: '网络神曲'}, 
+      {type: 11,text: '摇滚',title: '摇滚重金属'}
+    ]
+  },
+  getData({ type = 2, size = 5, offset = 0, method ='baidu.ting.billboard.billList'}={})
+  {
+    return new Promise((res,rej)=>{
+      wx.request({
+        url: 'http://tingapi.ting.baidu.com/v1/restserver/ting',
+        data:{type,size,offset,method},
+        success:({data})=>{res(data)},
+        fail:err=>{rej(err)}
+      })
+    })
   }
 })

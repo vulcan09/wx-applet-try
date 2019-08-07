@@ -1,0 +1,20 @@
+.weui-search-bar{
+  position: sticky;
+  top:0;
+  z-index: 99;
+  /* background-color: #ede3e7; */
+}
+.weui-media-box{
+  border-bottom:1px solid #ccc;
+}
+.searchbar-result{
+    margin-top: 0;
+    font-size: 14px;
+}
+.searchbar-result .weui-cell__bd{
+  padding: 2px 0 2px 20px;
+  color: #666;
+}
+.searchbar-result:before{
+    display: none;
+}
