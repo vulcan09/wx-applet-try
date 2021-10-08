@@ -7,14 +7,16 @@
 </p>
 <p>
   <sub>Made with ❤︎ by
-    <a href="https://github.com/q20090255">Vulcan09</a>
+    <a href="https://github.com/vulcan09">Vulcan09</a>
   </sub>
 </p>
 <p>
-<a href="https://github.com/JousenZhou/display-editor"><img src="https://img.shields.io/badge/Github Page-JousenZhou-yellow" /></a>
-<a href="https://github.com/JousenZhou"><img src="https://img.shields.io/badge/Author-Jousen-blueviolet" /></a>
+<a href="https://github.com/vulcan09/wx-applet-try"><img src="https://img.shields.io/badge/Github Page-Vulcan09-yellow" /></a>
+<a href="https://github.com/vulcan09"><img src="https://img.shields.io/badge/Author-Vulcan09-blueviolet" /></a>
 </div>
 
 ---
 
-- 测试
+- 一个用微信小程序原生套件写的音乐播放器
+- 只有倆简单的页面，套了一下百度的api查一下音乐
+- 可以放歌，也可以下载，有没有歌词忘了。。
